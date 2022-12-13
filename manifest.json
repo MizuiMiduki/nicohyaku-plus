@@ -1,0 +1,17 @@
+{
+    "name": "ニコ百+",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "ニコニコ大百科の記事内リンクを見やすくします",
+    "icons": {
+        "16": "16icon.png",
+        "48": "48icon.png",
+        "128": "128icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://dic.nicovideo.jp/*"],
+            "css":["dic-style.css"]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+/*COPYRIGHT (c) 2022 BlossomsArchive (C)2022 MizuiMiduki*/
+
+.auto{
+  background-color: #ffae193d;
+  border: 1px;
+  border-color: #f58200;
+  border-style: solid;
+  color: black!important;
+  line-height: 1.7;
+  text-decoration: none!important;
+  text-shadow: 0 0 10px white;
+}
+
+.auto:hover{
+  background-color: #00000000!important;
+  color: #f58200!important;
+  border-color: #f58200!important;
+  text-shadow: 0 0 10px white;
+}
+
+.auto-hdn{
+  background-color: #ffae193d;
+  border: 1px;
+  border-color: #f58200;
+  border-style: solid;
+  color: black!important;
+  line-height: 1.7;
+  text-decoration: none!important;
+  text-shadow: 0 0 10px white;
+}
+
+.auto-hdn:hover{
+  background-color: #00000000!important;
+  color: #f58200!important;
+  border-color: #f58200!important;
+  text-shadow: 0 0 10px white;
+}
