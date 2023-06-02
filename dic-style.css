@@ -1,6 +1,6 @@
 /*COPYRIGHT (c) 2022 BlossomsArchive (C)2022 MizuiMiduki*/
 
-.auto{
+.nicohyaku-plus--auto{
   background-color: #ffae193d;
   border: 1px;
   border-color: #f58200;
@@ -11,14 +11,14 @@
   text-shadow: 0 0 10px white;
 }
 
-.auto:hover{
+.nicohyaku-plus--auto:hover{
   background-color: #00000000!important;
   color: #f58200!important;
   border-color: #f58200!important;
   text-shadow: 0 0 10px white;
 }
 
-.auto-hdn{
+.nicohyaku-plus--auto-hdn{
   background-color: #ffae193d;
   border: 1px;
   border-color: #f58200;
@@ -29,9 +29,36 @@
   text-shadow: 0 0 10px white;
 }
 
-.auto-hdn:hover{
+.nicohyaku-plus--auto-hdn:hover{
   background-color: #00000000!important;
   color: #f58200!important;
   border-color: #f58200!important;
   text-shadow: 0 0 10px white;
+}
+
+#nicohyaku_plus__on_off_button{
+  max-height: 30px;
+  background-color: transparent;
+  margin: 0 5px 0 5px;
+  border-radius: 3px;
+}
+
+.nicohyaku-plus--on-off-button-disable{
+  border: gray 1px solid !important;
+  color: gray;
+}
+
+.nicohyaku-plus--on-off-button-disable:hover{
+  border: #f58200 1px solid !important;
+  color: #f58200;
+}
+
+.nicohyaku-plus--on-off-button-enable{
+  border: #f58200 1px solid !important;
+  color: #f58200;
+}
+
+.nicohyaku-plus--on-off-button-enable:hover{
+  border: gray 1px solid !important;
+  color: gray;
 }
