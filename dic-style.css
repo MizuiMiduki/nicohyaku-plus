@@ -1,64 +1,81 @@
 /*COPYRIGHT (c) 2022 BlossomsArchive (C)2022 MizuiMiduki*/
 
-.nicohyaku-plus--auto{
+/* シロナガスクジラ対策CSS */
+.nicohyaku-plus--auto {
   background-color: #ffae193d;
   border: 1px;
   border-color: #f58200;
   border-style: solid;
-  color: black!important;
+  color: black !important;
   line-height: 1.7;
-  text-decoration: none!important;
+  text-decoration: none !important;
   text-shadow: 0 0 10px white;
 }
 
-.nicohyaku-plus--auto:hover{
-  background-color: #00000000!important;
-  color: #f58200!important;
-  border-color: #f58200!important;
+.nicohyaku-plus--auto:hover {
+  background-color: #00000000 !important;
+  color: #f58200 !important;
+  border-color: #f58200 !important;
   text-shadow: 0 0 10px white;
 }
 
-.nicohyaku-plus--auto-hdn{
+.nicohyaku-plus--auto-hdn {
   background-color: #ffae193d;
   border: 1px;
   border-color: #f58200;
   border-style: solid;
-  color: black!important;
+  color: black !important;
   line-height: 1.7;
-  text-decoration: none!important;
+  text-decoration: none !important;
   text-shadow: 0 0 10px white;
 }
 
-.nicohyaku-plus--auto-hdn:hover{
-  background-color: #00000000!important;
-  color: #f58200!important;
-  border-color: #f58200!important;
+.nicohyaku-plus--auto-hdn:hover {
+  background-color: #00000000 !important;
+  color: #f58200 !important;
+  border-color: #f58200 !important;
   text-shadow: 0 0 10px white;
 }
 
-#nicohyaku_plus__on_off_button{
+/* アニメーション */
+/* @keyframes disable2enable {
+  0% {
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    line-height: 1.0;
+    border-width: 0px;
+  }
+
+  100% {
+    background: #ffae193d;
+    border-color: #f58200;
+    line-height: 1.7;
+    border-width: 1px;
+  }
+} */
+
+/* ボタンCSS */
+#nicohyaku_plus__on_off_button {
   max-height: 30px;
   background-color: transparent;
   margin: 0 5px 0 5px;
   border-radius: 3px;
 }
 
-.nicohyaku-plus--on-off-button-disable{
+.nicohyaku-plus--on-off-button-disable {
   border: gray 1px solid !important;
   color: gray;
 }
 
-.nicohyaku-plus--on-off-button-disable:hover{
+.nicohyaku-plus--on-off-button-disable:hover {
+  color: #f58200;
+}
+
+.nicohyaku-plus--on-off-button-enable {
   border: #f58200 1px solid !important;
   color: #f58200;
 }
 
-.nicohyaku-plus--on-off-button-enable{
-  border: #f58200 1px solid !important;
-  color: #f58200;
-}
-
-.nicohyaku-plus--on-off-button-enable:hover{
-  border: gray 1px solid !important;
+.nicohyaku-plus--on-off-button-enable:hover {
   color: gray;
 }
