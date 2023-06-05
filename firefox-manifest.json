@@ -3,6 +3,9 @@
     "version": "3.0",
     "manifest_version": 2,
     "description": "ニコニコ大百科の記事内リンクを見やすくします",
+     "permissions": [
+        "storage"
+    ],
     "icons": {
         "16": "16icon.png",
         "48": "48icon.png",
