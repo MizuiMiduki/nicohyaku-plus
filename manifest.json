@@ -1,6 +1,6 @@
 {
     "name": "ニコ百+",
-    "version": "3.0",
+    "version": "3.1",
     "manifest_version": 3,
     "description": "ニコニコ大百科の記事内リンクを見やすくします",
     "permissions": [

@@ -1,5 +1,7 @@
 $(function () {
-    $('.st-space_right').eq(2).after('<button id="nicohyaku_plus__on_off_button" class="nicohyaku-plus--on-off-button-disable">シロナガスクジラ</buton>');
+    $('.a-area_sns').before('<button id="nicohyaku_plus__on_off_button" class="nicohyaku-plus--on-off-button-disable">シロナガスクジラ</buton>');
+    $(".auto").addClass("highlight-none");
+    $(".auto-hdn").addClass("highlight-none");
 });
 
 $(function () {
@@ -8,6 +10,8 @@ $(function () {
         if (on_off == true) {
             $(".auto").toggleClass("nicohyaku-plus--auto-hdn");
             $(".auto-hdn").toggleClass("nicohyaku-plus--auto");
+            $(".auto").toggleClass("highlight-none");
+            $(".auto-hdn").toggleClass("highlight-none");
             $("#nicohyaku_plus__on_off_button").toggleClass("nicohyaku-plus--on-off-button-disable");
             $("#nicohyaku_plus__on_off_button").toggleClass("nicohyaku-plus--on-off-button-enable");
         }
@@ -17,13 +21,17 @@ $(function () {
     $('#nicohyaku_plus__on_off_button').click(function () {
         $(".auto").toggleClass("nicohyaku-plus--auto-hdn");
         $(".auto-hdn").toggleClass("nicohyaku-plus--auto");
+        $(".auto").toggleClass("highlight-none");
+        $(".auto-hdn").toggleClass("highlight-none");
         on_off_toggle = !on_off_toggle;
         chrome.storage.local.set(
             {
                 "nikohyaku_plus_on_off": on_off_toggle,
             }
         );
+
         $("#nicohyaku_plus__on_off_button").toggleClass("nicohyaku-plus--on-off-button-disable");
         $("#nicohyaku_plus__on_off_button").toggleClass("nicohyaku-plus--on-off-button-enable");
+
     })
 });
