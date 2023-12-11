@@ -1,4 +1,5 @@
 $(function () {
+    $('.common-header-1o7v8vg').after('<div style="color:white!important;"><p>お使いのブラウザ拡張機能"ニコ百+"は2023/12/31をもってサポートされなくなります。後継の"<a href="https://github.com/MizuiMiduki/nicominabe" style="text-decoration:underline; color:white;">ニコ見なべ</a>"をご利用ください</p></div>');
     $('.a-area_sns').before('<button id="nicohyaku_plus__on_off_button" class="nicohyaku-plus--on-off-button-disable">シロナガスクジラ</buton>');
     $(".auto").addClass("highlight-none");
     $(".auto-hdn").addClass("highlight-none");
